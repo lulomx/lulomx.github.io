@@ -128,14 +128,6 @@ header img {
   border-top: solid 23px #232323;
 }
 
-#slide2 {
-  border-top: solid 23px #7bb000;
-}
-
-#slide3 {
-  border-top: solid 23px #e90d8a;
-}
-
 div.project {
   margin: 10em auto 0;
   width: 960px;
@@ -160,18 +152,19 @@ div.project h3.title {
     font-size: 1.1em;
   }
 }
-div.project p.quote {
+div.project p {
+  font-size: 1.3em;
+  line-height: 1.3em;
   width: 70%;
-  border-left: solid 1px red;
-  padding: 0 1em;
+  margin-bottom: 1.3em;
 }
 @media only screen and (max-width: 960px) {
-  div.project p.quote {
+  div.project p {
     width: 95%;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 }
-div.project p.quote span {
+div.project p span {
   font-weight: bold;
   font-style: normal;
   margin-top: 1em;
